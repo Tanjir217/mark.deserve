@@ -1,0 +1,135 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: gray;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 10px 10%;
+  background: darkgray;
+}
+.logo{
+  font-size: 40px;
+}
+.logo span{
+  color: wheat;
+  font-size: 50px;
+}
+.nav-content{
+  display: flex;
+  justify-content: center;
+}
+.nav-content i{
+  font-size: 22px;
+}
+.nav-content a{
+  text-decoration: none;
+  margin-right: 10px;
+  margin-left: 5px;
+  font-size: 20px;
+}
+.body-txt{
+  margin: 10% 5%;
+  font-size: 25px;
+}
+.c-name{
+  color: aquamarine;
+}
+#element{
+  font-size: 30px;
+}
+.btn-2:hover{
+  background-color: gray;
+}
+.menu-var{
+  height: 40px;
+  width: 100%;
+  background-color: brown;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.menu-var a{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+#off{
+  text-align: center;
+  width: 60px;
+  height: 20px;
+  background-color: blueviolet;
+  border: 1px solid black;
+  border-radius: 10%;
+}
+#off:hover{
+  background-color: yellow;
+  transition: 1s;
+}
+.menu-var a:hover{
+  color: black;
+}
+.body-txt a{
+  color: white;
+  text-decoration: none;
+}
+.body-txt button{
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0px 10px;
+  height: 30px;
+  width: 100px;
+  margin: 40px 30px;
+  background-color: rgb(9, 134, 161);
+}
+.about-us{
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  padding: 10%;
+}
+.about-box-1{
+  margin-top: 8%;
+  width: 500px;
+}
+.about-box-1 h1{
+  font-size: 35px;
+}
+.about-box-1 p{
+  font-size: 22px;
+}
+.box{
+  margin-bottom: 30px;
+  display: flex;
+  width: 400px;
+}
+.box-txt{
+  margin: 0px 30px;
+}
+.box-txt h2{
+  font-size: 29px;
+}
+.box-txt p{
+  margin-top: 5px;
+  font-size: 22px;
+}
+.box-logo i{
+  font-size: 50px;
+  color: rgb(74, 5, 5);
+}
+.company{
+  display: flex;
+}
+.com-img img{
+  margin-top: 30px;
+  margin-left: 30px;
+  height: 30px;
+  width: 80px;
+}
+
