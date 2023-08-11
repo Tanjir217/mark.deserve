@@ -5,6 +5,9 @@
 body{
   background-color: gray;
 }
+html{
+  scroll-behavior: smooth;
+}
 .container{
   display: flex;
   justify-content: space-between;
@@ -92,7 +95,7 @@ body{
   display: flex;
   justify-content: space-between;
   align-self: center;
-  padding: 10%;
+  padding: 3% 10%;
 }
 .about-box-1{
   margin-top: 8%;
@@ -132,4 +135,126 @@ body{
   height: 30px;
   width: 80px;
 }
-
+.service{
+  padding: 0% 10% 10% 10%;
+}
+.service-box{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.box-1{
+  height: 100px;
+  width: 100px;
+}
+.ser-title{
+  height: 45px;
+  width: 94%;
+  background-color: aquamarine;
+  text-align: center;
+  padding: 10px;
+  margin: 100px 3%;
+  
+}
+.ser-box{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 250px;
+  margin-left: 30px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+.first{
+  background-color: red;
+}
+.first img{
+  margin: 10px 60px;
+}
+.first h3{
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+.second{
+  background-color: yellow;
+}
+.second img{
+  margin: 15px 60px;
+}
+.second h3{
+  margin-left: 35%;
+  margin-bottom: 20px;
+}
+.third{
+  background-color: blue;
+}
+.third img{
+  margin: 15px 60px;
+}
+.third h3{
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.fourth{
+  background-color: goldenrod;
+}
+.fourth img{
+  margin: 15px 63px;
+}
+.fourth h3{
+  margin-left: 35%;
+  margin-bottom: 20px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.odr button{
+  height: 50px;
+  width: 150px;
+  background-color: black;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  margin: 30px 45%;
+}
+.odr a{
+  text-decoration: none;
+  font-weight: 600;
+  color: azure;
+}
+.odr button:hover{
+  background-color: blueviolet;
+  font-size: 20px;
+  transition: 0.5s;
+}
+.quat{
+  border-bottom: 2px solid black;
+}
+.quat a{
+  font-size: 20px;
+  margin-left: 40px;
+}
+.policy{
+  margin-top: 20px;
+}
+.policy a{
+  font-size: 20px;
+  margin-left: 22px;
+}
+.certification{
+  padding: 5% 20px;
+  /* margin: 20px 40px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.certification span{
+  font-size: 25px;
+}
+.cerfi-1{
+  width: 45%;
+}
+.cerfi-2{
+  width: 45%;
+}
