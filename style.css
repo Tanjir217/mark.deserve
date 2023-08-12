@@ -8,6 +8,13 @@ body{
 html{
   scroll-behavior: smooth;
 }
+#home{
+  height: 100vh;
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .container{
   display: flex;
   justify-content: space-between;
@@ -39,6 +46,7 @@ html{
 .body-txt{
   margin: 10% 5%;
   font-size: 25px;
+  color: white;
 }
 .c-name{
   color: aquamarine;
@@ -110,6 +118,7 @@ html{
 .box{
   margin-bottom: 30px;
   display: flex;
+  align-items: center;
   width: 400px;
 }
 .box-txt{
@@ -244,13 +253,14 @@ a{
 }
 .certification{
   padding: 5% 20px;
-  /* margin: 20px 40px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
 }
 .certification span{
   font-size: 25px;
+  margin-right: 10px;
 }
 .cerfi-1{
   width: 45%;
