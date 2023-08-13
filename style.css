@@ -1,6 +1,7 @@
 *{
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 body{
   background-color: gray;
@@ -21,15 +22,15 @@ html{
   justify-content: space-between;
   align-items: center;
   height: 50px;
-  padding: 10px 10%;
+  padding: 5px 10%;
   background: darkgray;
 }
 .logo{
-  font-size: 40px;
+  font-size: 35px;
 }
 .logo span{
   color: wheat;
-  font-size: 50px;
+  font-size: 40px;
 }
 .nav-content{
   display: flex;
@@ -262,10 +263,7 @@ a{
 nav .fa-solid{
   display: none;
 }
-@media only screen and (max-width:700px) {
-  #home{
-    height: 100vh;
-  }
+@media only screen and (max-width:650px) {
   .container{
     display: flex;
     align-items: center;
@@ -282,7 +280,7 @@ nav .fa-solid{
   }
   .body-content{
     display: grid;
-    margin-top: 50%;
+    margin-top: 40%;
     padding: 20px;
   }
   .body-txt{
@@ -349,12 +347,13 @@ nav .fa-solid{
     font-size: 25px;
   }
   .box-txt p{
-    width: 300px;
+    width: 250px;
     font-size: 16px;
   }
   .company{
     display: flex;
     flex-wrap: wrap;
+    padding: 10px;
   }
   /* service */
   .service-box{
@@ -369,6 +368,8 @@ nav .fa-solid{
   }
   .odr button{
     margin-left: 25%;
+    height: 50px;
+    width: 200px;
   }
   /* footer */
   .quat a{
