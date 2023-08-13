@@ -8,8 +8,9 @@ body{
 html{
   scroll-behavior: smooth;
 }
-#home{
+.home{
   height: 100vh;
+  width: 100%;
   background-image: url("images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -44,7 +45,7 @@ html{
   font-size: 20px;
 }
 .body-txt{
-  margin: 10% 5%;
+  margin: 10% 5% 0% 5%;
   font-size: 25px;
   color: white;
 }
@@ -54,37 +55,26 @@ html{
 #element{
   font-size: 30px;
 }
-.btn-2:hover{
+.body-txt .btn-2{
   background-color: gray;
 }
-.menu-var{
-  height: 40px;
-  width: 100%;
-  background-color: brown;
+nav{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
-.menu-var a{
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+nav ul li a{
   text-decoration: none;
+  color: white;
   font-size: 18px;
   font-weight: 600;
-  color: white;
-}
-#off{
-  text-align: center;
-  width: 60px;
-  height: 20px;
-  background-color: blueviolet;
-  border: 1px solid black;
-  border-radius: 10%;
-}
-#off:hover{
-  background-color: yellow;
-  transition: 1s;
-}
-.menu-var a:hover{
-  color: black;
+  position: relative;
 }
 .body-txt a{
   color: white;
@@ -101,13 +91,12 @@ html{
 }
 .about-us{
   display: flex;
-  justify-content: space-between;
-  align-self: center;
-  padding: 3% 10%;
+  align-items: center;
+  padding: 3%;
 }
 .about-box-1{
   margin-top: 8%;
-  width: 500px;
+
 }
 .about-box-1 h1{
   font-size: 35px;
@@ -115,11 +104,13 @@ html{
 .about-box-1 p{
   font-size: 22px;
 }
+.about-box-2{
+  margin-left: 50px;
+}
 .box{
   margin-bottom: 30px;
   display: flex;
   align-items: center;
-  width: 400px;
 }
 .box-txt{
   margin: 0px 30px;
@@ -137,12 +128,12 @@ html{
 }
 .company{
   display: flex;
+  padding: 40px;
 }
 .com-img img{
-  margin-top: 30px;
-  margin-left: 30px;
+  margin: 10px 20px;
   height: 30px;
-  width: 80px;
+  width: 90px;
 }
 .service{
   padding: 0% 10% 10% 10%;
@@ -225,7 +216,7 @@ a{
   background-color: black;
   border: 1px solid transparent;
   border-radius: 10px;
-  margin: 30px 45%;
+  margin: 30px 43%;
 }
 .odr a{
   text-decoration: none;
@@ -267,4 +258,135 @@ a{
 }
 .cerfi-2{
   width: 45%;
+}
+nav .fa-solid{
+  display: none;
+}
+@media only screen and (max-width:700px) {
+  #home{
+    height: 100vh;
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  .nav-content{
+    display: block;
+  }
+  .nav-content i{
+    font-size: 15px;
+  }
+  .logo{
+    font-size: 25px;
+  }
+  .body-content{
+    display: grid;
+    margin-top: 50%;
+    padding: 20px;
+  }
+  .body-txt{
+    font-size: 18px;
+  }
+  .body-txt .btn-2{
+    margin-right: 10px;
+  }
+  .body-txt button{
+    margin-left: 10px;
+  }
+  #element{
+    font-size: 20px;
+  }
+  nav ul{
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right 0.6s;
+    background-color: black;
+    color: white;
+  }
+  nav ul li{
+    display: block;
+    margin: 25px;
+  }
+  nav ul .fa-solid{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+  }
+  nav .fa-solid{
+    display: block;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  /* about us */
+  .about-us{
+    display: grid;
+  }
+  .about-box-1{
+    width: 100%;
+  }
+  .about-box-1 h1{
+    font-size: 25px;
+  }
+  .about-box-1 p{
+    font-size: 14px;
+    width: 350px;
+  }
+  .about-box-2{
+    margin-left: 0px;
+  }
+  .box-logo i{
+    font-size: 30px;
+  }
+ .box-txt h2{
+    font-size: 25px;
+  }
+  .box-txt p{
+    width: 300px;
+    font-size: 16px;
+  }
+  .company{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* service */
+  .service-box{
+    display: grid;
+    padding: 10px;
+  }
+  .ser-title{
+    margin-right: 14px;
+  }
+  .ser-box{
+    margin-top: 20px;
+  }
+  .odr button{
+    margin-left: 25%;
+  }
+  /* footer */
+  .quat a{
+    font-size: 16px;
+    margin-left: 20px;
+  }
+  .policy a{
+    font-size: 13px;
+    margin-left: 10px;
+  }
+  .certification{
+    display: inline-block;
+  }
+  .cerfi-1{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .cerfi-2{
+    width: 100%;
+  }
 }
