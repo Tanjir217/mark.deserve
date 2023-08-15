@@ -345,12 +345,14 @@ nav .fa-solid{
     margin: 25px;
   }
   nav ul .fa-solid{
+    color: white;
     position: absolute;
     top: 25px;
     left: 25px;
     cursor: pointer;
   }
   nav .fa-solid{
+    color: burlywood;
     display: block;
     font-size: 25px;
     margin-top: 5px;
