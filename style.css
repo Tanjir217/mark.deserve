@@ -236,6 +236,9 @@ a{
   font-size: 20px;
   transition: 0.5s;
 }
+.odr-1{
+  display: none;
+}
 .odr-1 button{
   height: 50px;
   width: 150px;
