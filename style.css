@@ -236,6 +236,24 @@ a{
   font-size: 20px;
   transition: 0.5s;
 }
+.odr-1 button{
+  height: 50px;
+  width: 150px;
+  background-color: black;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  margin: 30px 43%;
+}
+.odr-1 a{
+  text-decoration: none;
+  font-weight: 600;
+  color: azure;
+}
+.odr-1 button:hover{
+  background-color: blueviolet;
+  font-size: 20px;
+  transition: 0.5s;
+}
 .quat{
   border-bottom: 2px solid black;
 }
@@ -255,7 +273,6 @@ a{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  text-align: center;
 }
 .certification span{
   font-size: 25px;
@@ -369,7 +386,7 @@ nav .fa-solid{
   /* service */
   .service-box{
     display: grid;
-
+    justify-content: center;
   }
   .ser-title{
     margin-right: 14px;
@@ -378,8 +395,15 @@ nav .fa-solid{
     margin-left: 0px;
     margin-top: 20px;
   }
-  .odr button{
-    margin-left: 20%;
+  .odr-1{
+    display: block;
+    margin-top: 20px;
+  }
+  .odr{
+    display: none;
+  }
+  .odr-1 button{
+    margin-left: 26px;
     height: 50px;
     width: 200px;
   }
@@ -394,6 +418,7 @@ nav .fa-solid{
   }
   .certification{
     display: inline-block;
+    margin-left: 0px;
   }
   .cerfi-1{
     width: 100%;
