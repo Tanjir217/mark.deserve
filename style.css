@@ -218,6 +218,9 @@ a{
   text-decoration: none;
   color: black;
 }
+.odr{
+  display: block;
+}
 .odr button{
   height: 50px;
   width: 150px;
